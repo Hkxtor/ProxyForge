@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/ProxyForge/', // Base path for GitHub Pages subfolder hosting
+  base: './', // Use relative paths to support both custom domains and GitHub Pages subfolders
 })
